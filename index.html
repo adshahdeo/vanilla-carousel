@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vanilla JS Carousel</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <div class='container'>
+        <h1 class='title'>Carousel Example</h1>
+        <div class='wrapper'>
+            <div class="carousel-container">
+                <div id="nav-left" data-id="slide-4" class="carousel-nav nav-left"><span data-id="slide-4" class="icon"><</span></div>
+                <div id="nav-right" data-id="slide-2" class="carousel-nav nav-right"><span data-id="slide-2" class="icon">></span></div>
+                <div id="slide-1" class="img-container active">
+                    <p class="slide-description">slide 1</p>
+                    <img src="./images/img1.jpeg">
+                </div>
+                <div id="slide-2" class="img-container">
+                    <p class="slide-description">slide 2</p>
+                    <img src="./images/img2.jpeg">
+                </div>
+                <div id="slide-3" class="img-container">
+                    <p class="slide-description">slide 3</p>
+                    <img src="./images/img3.jpeg">
+                </div>
+                <div id="slide-4" class="img-container">
+                    <p class="slide-description">slide 4</p>
+                    <img src="./images/img4.jpeg">
+                </div>
+            </div>
+            <div class="carousel-nav-btn">
+                <div data-id="slide-1" class="nav-btn active-nav-btn"></div>
+                <div data-id="slide-2" class="nav-btn"></div>
+                <div data-id="slide-3" class="nav-btn"></div>
+                <div data-id="slide-4" class="nav-btn"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
